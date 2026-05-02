@@ -8,7 +8,7 @@
                         <ul class="ps-0 mb-0">
                             <li>
                                 <i class="fas fa-map-marker-alt me-2"></i>
-                                London, United Kingdom
+                              Elsley Court, 20-22 Great Titchfield Street...
                             </li>
                             <li class="d-none d-sm-inline-block">
                                 <i class="fas fa-envelope me-2"></i>
@@ -54,7 +54,7 @@
                             <div class="navbar-toggler bg-primary"></div>
                             <!-- Menu -->
                             <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
-                                <li><a href="{{ route("home") }}">Home</a></li>
+                                <li class="active"><a href="{{ route("home") }}">Home</a></li>
                                 <li>
                                     <a href="#">Company</a>
                                     <ul>
@@ -83,7 +83,7 @@
                             <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
                                 <ul>
                                     <li class="d-none d-xl-inline-block">
-                                        <a href="#" class="btn-style1 medium text-white">
+                                        <a href="{{ route("contact") }}" class="btn-style1 medium text-white">
                                             Partner With Us
                                         </a>
                                     </li>
