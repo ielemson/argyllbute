@@ -172,8 +172,8 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h4 class="h5 text-white">Phone Number</h4>
-                                            <span class="d-block text-white opacity7">(+44) 123 456 789</span>
-                                            <span class="text-white opacity7">(+1) 234-567-9874</span>
+                                            <span class="d-block text-white opacity7">(+44) 7785 386025</span>
+                                            {{-- <span class="text-white opacity7">(+1) 234-567-9874</span> --}}
                                         </div>
                                     </div>
                                     <i class="fas fa-phone-alt bg-icon"></i>
@@ -189,7 +189,7 @@
                                         <div class="flex-grow-1 ms-3">
                                             <h4 class="h5 text-white">Email Address</h4>
                                             <span class="d-block text-white opacity7">info@argyllbutegreenenergy.co.uk</span>
-                                            <span class="text-white opacity7">support@argyllbutegreenenergy.co.uk</span>
+                                            {{-- <span class="text-white opacity7">support@argyllbutegreenenergy.co.uk</span> --}}
                                         </div>
                                     </div>
                                     <i class="fas fa-envelope bg-icon"></i>

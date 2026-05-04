@@ -56,7 +56,7 @@
                             </div>
                             <div class="flex-grow-1">
                                 <h4 class="text-white h6">info@argyllbutegreenenergy.co.uk</h4>
-                                <h4 class="mb-0 text-white h6">support@argyllbutegreenenergy.co.uk</h4>
+                                {{-- <h4 class="mb-0 text-white h6">support@argyllbutegreenenergy.co.uk</h4> --}}
                             </div>
                         </div>
                     </div>
@@ -68,8 +68,8 @@
                                 <i class="fas fa-phone-alt text-secondary"></i>
                             </div>
                             <div class="flex-grow-1">
-                                <h4 class="text-white h6">(+44) 123 456 789</h4>
-                                <h4 class="mb-0 text-white h6">(+44) 987 654 321</h4>
+                                <h4 class="text-white h6">(+44) 7785 386025</h4>
+                                {{-- <h4 class="mb-0 text-white h6">(+44) 987 654 321</h4> --}}
                             </div>
                         </div>
                     </div>

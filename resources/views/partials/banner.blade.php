@@ -16,11 +16,11 @@
                 <h1 class="display-4 text-white fw-bold mb-3">
                     Powering a Cleaner Future
                 </h1>
-
+{{-- 
                 <!-- CTA -->
                 <a href="#" class="btn-style2 primary">
                     Get Started
-                </a>
+                </a> --}}
 
             </div>
 
