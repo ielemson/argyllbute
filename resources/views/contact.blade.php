@@ -188,7 +188,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h4 class="h5 text-white">Email Address</h4>
-                                            <span class="d-block text-white opacity7">info@argyllbutegreenenergy.co.uk</span>
+                                            <span class="d-block text-white opacity7">info@argyllebuteenergy.co.uk</span>
                                             {{-- <span class="text-white opacity7">support@argyllbutegreenenergy.co.uk</span> --}}
                                         </div>
                                     </div>
@@ -328,6 +328,13 @@
     <!-- Quform Scripts -->
     <script src="{{ asset('quform/js/scripts.js') }}"></script>
 
+    
+    <script>
+    window.siteLogos = {
+        inner: "{{ asset('img/logos/logo-inner.png') }}",
+        main: "{{ asset('img/logos/logo.png') }}"
+    };
+</script>
     <!-- Custom Scripts -->
     <script src="{{ asset('js/main.js') }}"></script>
 

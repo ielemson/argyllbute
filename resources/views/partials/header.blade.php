@@ -12,7 +12,7 @@
                             </li>
                             <li class="d-none d-sm-inline-block">
                                 <i class="fas fa-envelope me-2"></i>
-                                info@argyllbutegreenenergy.co.uk
+                                info@argyllebuteenergy.co.uk
                             </li>
                         </ul>
                     </div>

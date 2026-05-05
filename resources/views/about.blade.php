@@ -317,6 +317,13 @@
     <!-- Quform Scripts -->
     <script src="{{ asset('quform/js/scripts.js') }}"></script>
 
+    <script>
+    window.siteLogos = {
+        inner: "{{ asset('img/logos/logo-inner.png') }}",
+        main: "{{ asset('img/logos/logo.png') }}"
+    };
+</script>
+
     <!-- Custom Scripts -->
     <script src="{{ asset('js/main.js') }}"></script>
 

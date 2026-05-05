@@ -25,7 +25,7 @@
             <div class="col-lg-4 mt-1-9">
                 <div class="footer-logo">
                     <a href="#">
-                        <img src="img/logos/footer-light-logo.png" alt="Argyll and Bute Green Energy Ltd">
+                        <img src="{{ asset("img/logos/footer-light-logo.png") }}" alt="Argyll and Bute Green Energy Ltd">
                     </a>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                                 <i class="fas fa-envelope text-secondary"></i>
                             </div>
                             <div class="flex-grow-1">
-                                <h4 class="text-white h6">info@argyllbutegreenenergy.co.uk</h4>
+                                <h4 class="text-white h6">info@argyllebuteenergy.co.uk</h4>
                                 {{-- <h4 class="mb-0 text-white h6">support@argyllbutegreenenergy.co.uk</h4> --}}
                             </div>
                         </div>

@@ -15,12 +15,16 @@ class ServiceController extends Controller
         return view('services.index', compact('services'));
     }
 
-    public function show($slug)
+    public function show(String $slug)
     {
         $service = Service::where('slug', $slug)
             ->where('is_active', true)
             ->firstOrFail();
 
-        return view('services.show', compact('service'));
+               $services = Service::where('is_active', true)
+            ->orderBy('sort_order')
+            ->get();
+
+        return view('services.show', compact('service','services'));
     }
 }

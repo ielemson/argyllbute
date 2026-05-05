@@ -113,7 +113,7 @@
         <!-- PAGE TITLE
 ================================================== -->
         <section class="page-title-section bg-img cover-background dark-overlay top-position" data-overlay-dark="6"
-            data-background="img/banner/page-title.jpg">
+            data-background="{{ asset("img/banner/page-title.jpg") }}">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -239,6 +239,13 @@
 
     <!-- Quform Scripts -->
     <script src="{{ asset('quform/js/scripts.js') }}"></script>
+
+    <script>
+    window.siteLogos = {
+        inner: "{{ asset('img/logos/logo-inner.png') }}",
+        main: "{{ asset('img/logos/logo.png') }}"
+    };
+</script>
 
     <!-- Custom Scripts -->
     <script src="{{ asset('js/main.js') }}"></script>
